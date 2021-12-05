@@ -2,7 +2,7 @@ version: "2"
 services:
 
   app:
-    image: wonderland-stats
+    image: kevineye/wonderland-stats
     build: .
     user: node
     ports:
