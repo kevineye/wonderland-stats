@@ -38,14 +38,3 @@ Retrieve [Wonderland TIME/MEMO](https://www.wonderland.money/) stats via command
       "currentBlockTime": 1638675322,
       "nextRebase": 1638684000
     }
-
-## Without docker
-
-    $ npm install i -g kevineye/wonderland-stats
-    $ wonderland-stats -h
-    Usage: wonderland-stats [options]
-    
-    Options:
-      -s, --server       run server
-      -p, --port <port>  server port (default: "3000")
-      -h, --help         display help for command
